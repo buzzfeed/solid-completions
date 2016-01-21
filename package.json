@@ -1,0 +1,18 @@
+{
+  "name": "solid-completions",
+  "version": "0.0.1",
+  "description": "SublimeText compatible completions generator for Solid",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Shuster (mark.shuster@buzzfeed.com",
+  "devDependencies": {
+    "bf-solid": "latest",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "handlebars": "^4.0.5",
+    "postcss": "^5.0.14",
+    "postcss-scss": "^0.1.3"
+  }
+}
