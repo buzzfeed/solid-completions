@@ -11,7 +11,7 @@ Array.prototype.unique = function() {
 
 var solid_classes = postcss.plugin('postcss-solid-classes', function (opts) {
   opts = opts || {};
-  var dest = './dist/solid-classes.sublime-completions';
+  var dest = './solid-classes.sublime-completions';
   var template = handlebars.compile(fs.readFileSync('./solid-classes.hbr', {encoding: 'utf-8'}));
 
   return function(css) {
@@ -41,7 +41,7 @@ var solid_classes = postcss.plugin('postcss-solid-classes', function (opts) {
 
 var solid_variables = postcss.plugin('postcss-solid-variables', function (opts) {
   opts = opts || {};
-  var dest = './dist/solid-variables.sublime-completions';
+  var dest = './solid-variables.sublime-completions';
   var template = handlebars.compile(fs.readFileSync('./solid-variables.hbr', {encoding: 'utf-8'}));
   
   return function(css) {
@@ -69,7 +69,7 @@ var solid_variables = postcss.plugin('postcss-solid-variables', function (opts) 
 module.exports = function(grunt) {
   grunt.initConfig({
     clean: {
-      pre: ['./dist'],
+      pre: ['./dist', '*.sublime-completions'],
       post: ['./dist/*.css']
     },
     sass: {                              // Task
