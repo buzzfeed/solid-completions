@@ -1,9 +1,0 @@
-{
-  "scope": "{{scope}}",
-
-  "completions": [
-    {{#each completions}}
-      "\\\{{this}}",
-    {{/each}}
-  ]
-}
