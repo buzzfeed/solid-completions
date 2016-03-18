@@ -1,5 +1,5 @@
 {
-  "scope": "source.scss meta.property-value.scss",
+  "scope": ".source.css.scss .meta.property-value.scss",
 
   "completions": [
       "\\$base-font-size",

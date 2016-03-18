@@ -1,70 +1,4 @@
-var postcss = require('postcss');
-var handlebars = require('handlebars');
-var fs = require('fs');
-
-Array.prototype.unique = function() {
-    var o = {}, i, l = this.length, r = [];
-    for(i=0; i<l;i+=1) o[this[i]] = this[i];
-    for(i in o) r.push(o[i]);
-    return r;
-};
-
-var solid_classes = postcss.plugin('postcss-solid-classes', function (opts) {
-  opts = opts || {};
-  var dest = './solid-classes.sublime-completions';
-  var template = handlebars.compile(fs.readFileSync('./solid-classes.hbr', {encoding: 'utf-8'}));
-
-  return function(css) {
-    var fd = fs.openSync(dest, 'w+');
-    var hbs = new Array()
-    var rules = null
-    css.walkRules(function(rule){
-      rules = rule.selector.match(/\.[^\s,\:\.\(\)]+/g)
-      if (rules && rules.length) {
-        rules.forEach(function(e){
-          hbs.push(e.replace('.', ''))
-        })
-      }
-      if (0)
-        fs.writeSync(fd, out);
-    });
-
-    hbs = hbs.sort().unique()
-
-    fs.writeSync(fd, template({
-      scope: opts.scope,
-      completions: hbs
-    }));
-    fs.closeSync(fd);
-  };
-});
-
-var solid_variables = postcss.plugin('postcss-solid-variables', function (opts) {
-  opts = opts || {};
-  var dest = './solid-variables.sublime-completions';
-  var template = handlebars.compile(fs.readFileSync('./solid-variables.hbr', {encoding: 'utf-8'}));
-  
-  return function(css) {
-    var fd = fs.openSync(dest, 'w+');
-    var hbs = new Array()
-    var rules = null
-    css.nodes.forEach(function(rule){
-      if (rule.prop !== undefined && rule.prop.match(/^\$/g)) {
-        hbs.push(rule.prop)
-      }
-      if (0)
-        fs.writeSync(fd, out);
-    });
-
-    hbs = hbs.sort().unique()
-    
-    fs.writeSync(fd, template({
-      scope: opts.scope,
-      completions: hbs
-    }));
-    fs.closeSync(fd);
-  };
-});
+var processors = require('./lib/processors.js')
 
 module.exports = function(grunt) {
   grunt.initConfig({
@@ -75,7 +9,8 @@ module.exports = function(grunt) {
     sass: {                              // Task
       dist: {                            // Target
         options: {                       // Target options
-          style: 'expanded'
+          style: 'expanded',
+          sourceMap: true
         },
         files: {                         // Dictionary of files
           './dist/main.css': './node_modules/bf-solid/_lib/solid.scss'       // 'destination': 'source'
@@ -87,8 +22,8 @@ module.exports = function(grunt) {
         options: {
           map: false,
           processors: [
-            solid_classes({
-              scope: "text.html string.quoted",
+            processors.solid_classes({
+              scope: ".html .meta.tag.inline .string.quoted",
             }),
           ]
         },
@@ -99,12 +34,24 @@ module.exports = function(grunt) {
           map: false,
           syntax: require('postcss-scss'), // work with SCSS directly
           processors: [
-            solid_variables({
-              scope: "source.scss meta.property-value.scss",
+            processors.solid_variables({
+              scope: ".source.css.scss .meta.property-value.scss",
             }),
           ]
         },
         src: './node_modules/bf-solid/_lib/solid-helpers/_variables.scss'
+      },
+      "solid-rules-pre": {
+        options: {
+          map: false,
+          syntax: require('postcss-scss'), // work with SCSS directly
+          processors: [
+            processors.solid_rules_pre({
+              //scope: "source.scss meta.property-value.scss",
+            }),
+          ]
+        },
+        src: ['./node_modules/bf-solid/_lib/*utilities*/*.scss']
       }
     }
   });
@@ -113,6 +60,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['clean:pre', 'sass','postcss', 'clean:post'])
+  grunt.registerTask('default', ['clean:pre', 'sass', 'postcss:solid-variables', 'postcss:solid-rules-pre', 'postcss:solid-classes', 'clean:post'])
   grunt.registerTask('generate', ['default'])
 }

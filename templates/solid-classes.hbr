@@ -2,8 +2,8 @@
   "scope": "{{scope}}",
 
   "completions": [
-    {{#each completions}}
-      "{{this}}",
+    {{#each classes}}
+      "{{@key}}",
     {{/each}}
   ]
 }

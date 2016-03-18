@@ -1,7 +1,13 @@
 # solid-completions
-A generator for `.sublime-completions` files for the Solid CSS framework
+An [Atom](http://www.atom.io) autocomplete provider for the [Solid CSS framework](http://solid.buzzfeed.com) and generator for `.sublime-completions` autocomplete files.
 
-# Installation
+![Solid Autocomplete Example](https://monosnap.com/file/biBzhqnrIhT6jC0KA5PweeRTtuwN28.png)
+
+## Installation (Atom)
+
+Use the command palette `cmd-shift-P` and jump to `Settings View: Install Packages and Themes`. Search for `solid-completions` and hit install. That's it!
+
+## Installation (Sublime)
 Clone the repo to your machine
 `git clone https://github.com/buzzfeed/solid-completions.git`
 

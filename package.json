@@ -2,10 +2,9 @@
   "name": "solid-completions",
   "version": "0.0.1",
   "description": "SublimeText compatible completions generator for Solid",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Mark Shuster (mark.shuster@buzzfeed.com",
+  "main": "./lib/main.js",
+  "author": "Mark Shuster (mark.shuster@buzzfeed.com)",
+  "repository": "https://github.com/buzzfeed/solid-completions",
   "devDependencies": {
     "bf-solid": "latest",
     "grunt-contrib-clean": "^0.7.0",
@@ -14,5 +13,15 @@
     "handlebars": "^4.0.5",
     "postcss": "^5.0.14",
     "postcss-scss": "^0.1.3"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "engines": {
+    "atom": "*"
   }
 }
