@@ -1,6 +1,6 @@
 {
   "name": "solid-completions",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Atom Autocomplete+ provider and generator for SublimeText completions files for the Solid CSS Framework.",
   "main": "./lib/main.js",
   "author": "Mark Shuster (mark.shuster@buzzfeed.com)",
