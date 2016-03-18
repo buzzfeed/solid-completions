@@ -1,6 +1,8 @@
 # solid-completions
 An [Atom](http://www.atom.io) autocomplete provider for the [Solid CSS framework](http://solid.buzzfeed.com) and generator for `.sublime-completions` autocomplete files.
 
+It will autocomplete your Solid classnames in HTML and HTML-ish (mustache, handlebars, etc) files while also providing access to Solid global variables in SCSS.
+
 ![Solid Autocomplete Example](https://monosnap.com/file/biBzhqnrIhT6jC0KA5PweeRTtuwN28.png)
 
 ## Installation (Atom)
