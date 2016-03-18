@@ -1,0 +1,19 @@
+{
+  "scope": "{{scope}}",
+
+  "suggestions": {
+    "classes": [
+    {{#each classes}}
+      {
+        "selector": "{{@key}}",
+        "source": "{{this.source}}"
+      }{{#if @last}}{{else}},{{/if}}
+    {{/each}}
+    ],
+    "variables": [
+      {{#each variables}}
+        "{{this}}"{{#if @last}}{{else}},{{/if}}
+      {{/each}}
+    ]
+  }
+}

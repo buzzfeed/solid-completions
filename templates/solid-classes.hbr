@@ -1,0 +1,9 @@
+{
+  "scope": "{{scope}}",
+
+  "completions": [
+    {{#each classes}}
+      "{{@key}}",
+    {{/each}}
+  ]
+}
