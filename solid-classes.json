@@ -116,7 +116,7 @@
         "source": "colors"
       },
       {
-        "selector": "fill-red--lighter",
+        "selector": "fill-red-lighter",
         "source": "colors"
       },
       {
@@ -132,7 +132,7 @@
         "source": "colors"
       },
       {
-        "selector": "fill-yellow--lighter",
+        "selector": "fill-yellow-lighter",
         "source": "colors"
       },
       {
@@ -140,7 +140,7 @@
         "source": "colors"
       },
       {
-        "selector": "fill-green--lighter",
+        "selector": "fill-green-lighter",
         "source": "colors"
       },
       {
@@ -152,7 +152,7 @@
         "source": "colors"
       },
       {
-        "selector": "fill-gray--lighter",
+        "selector": "fill-gray-lighter",
         "source": "colors"
       },
       {
@@ -160,7 +160,7 @@
         "source": "colors"
       },
       {
-        "selector": "fill-gray--darker",
+        "selector": "fill-gray-darker",
         "source": "colors"
       },
       {
@@ -216,11 +216,11 @@
         "source": "colors"
       },
       {
-        "selector": "text-gray--lighter",
+        "selector": "text-gray-lighter",
         "source": "colors"
       },
       {
-        "selector": "text-gray--lightest",
+        "selector": "text-gray-lightest",
         "source": "colors"
       },
       {
@@ -248,15 +248,11 @@
         "source": "buttons"
       },
       {
-        "selector": "button--small",
-        "source": "buttons"
-      },
-      {
-        "selector": "button--primary",
-        "source": "buttons"
-      },
-      {
         "selector": "button--secondary",
+        "source": "buttons"
+      },
+      {
+        "selector": "button--icon",
         "source": "buttons"
       },
       {
@@ -264,7 +260,15 @@
         "source": "buttons"
       },
       {
-        "selector": "button--icon",
+        "selector": "button--white",
+        "source": "buttons"
+      },
+      {
+        "selector": "button--transparent",
+        "source": "buttons"
+      },
+      {
+        "selector": "button--small",
         "source": "buttons"
       },
       {
@@ -304,7 +308,15 @@
         "source": "forms"
       },
       {
+        "selector": "text-input--small",
+        "source": "forms"
+      },
+      {
         "selector": "textarea",
+        "source": "forms"
+      },
+      {
+        "selector": "textarea--small",
         "source": "forms"
       },
       {
@@ -312,23 +324,7 @@
         "source": "forms"
       },
       {
-        "selector": "date-input",
-        "source": "forms"
-      },
-      {
         "selector": "select--small",
-        "source": "forms"
-      },
-      {
-        "selector": "text-input--small",
-        "source": "forms"
-      },
-      {
-        "selector": "date-input--small",
-        "source": "forms"
-      },
-      {
-        "selector": "textarea--small",
         "source": "forms"
       },
       {
@@ -912,6 +908,42 @@
         "source": "typography"
       },
       {
+        "selector": "link-gray-lighter",
+        "source": "typography"
+      },
+      {
+        "selector": "link-facebook",
+        "source": "typography"
+      },
+      {
+        "selector": "link-twitter",
+        "source": "typography"
+      },
+      {
+        "selector": "link-google",
+        "source": "typography"
+      },
+      {
+        "selector": "link-linkedin",
+        "source": "typography"
+      },
+      {
+        "selector": "link-pinterest",
+        "source": "typography"
+      },
+      {
+        "selector": "link-tumblr",
+        "source": "typography"
+      },
+      {
+        "selector": "link-youtube",
+        "source": "typography"
+      },
+      {
+        "selector": "link-instagram",
+        "source": "typography"
+      },
+      {
         "selector": "link-gray--lighter",
         "source": "typography"
       },
@@ -924,7 +956,15 @@
         "source": "borders"
       },
       {
+        "selector": "rounded-right",
+        "source": "borders"
+      },
+      {
         "selector": "rounded-bottom",
+        "source": "borders"
+      },
+      {
+        "selector": "rounded-left",
         "source": "borders"
       },
       {
@@ -952,23 +992,23 @@
         "source": "borders"
       },
       {
-        "selector": "xs-border--lighter",
+        "selector": "xs-border-lighter",
         "source": "borders"
       },
       {
-        "selector": "xs-border-top--lighter",
+        "selector": "xs-border-top-lighter",
         "source": "borders"
       },
       {
-        "selector": "xs-border-right--lighter",
+        "selector": "xs-border-right-lighter",
         "source": "borders"
       },
       {
-        "selector": "xs-border-bottom--lighter",
+        "selector": "xs-border-bottom-lighter",
         "source": "borders"
       },
       {
-        "selector": "xs-border-left--lighter",
+        "selector": "xs-border-left-lighter",
         "source": "borders"
       },
       {
@@ -992,6 +1032,26 @@
         "source": "borders"
       },
       {
+        "selector": "xs-border--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "xs-border-top--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "xs-border-right--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "xs-border-bottom--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "xs-border-left--lighter",
+        "source": "borders"
+      },
+      {
         "selector": "sm-border",
         "source": "borders"
       },
@@ -1012,23 +1072,23 @@
         "source": "borders"
       },
       {
-        "selector": "sm-border--lighter",
+        "selector": "sm-border-lighter",
         "source": "borders"
       },
       {
-        "selector": "sm-border-top--lighter",
+        "selector": "sm-border-top-lighter",
         "source": "borders"
       },
       {
-        "selector": "sm-border-right--lighter",
+        "selector": "sm-border-right-lighter",
         "source": "borders"
       },
       {
-        "selector": "sm-border-bottom--lighter",
+        "selector": "sm-border-bottom-lighter",
         "source": "borders"
       },
       {
-        "selector": "sm-border-left--lighter",
+        "selector": "sm-border-left-lighter",
         "source": "borders"
       },
       {
@@ -1052,6 +1112,26 @@
         "source": "borders"
       },
       {
+        "selector": "sm-border--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "sm-border-top--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "sm-border-right--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "sm-border-bottom--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "sm-border-left--lighter",
+        "source": "borders"
+      },
+      {
         "selector": "md-border",
         "source": "borders"
       },
@@ -1072,23 +1152,23 @@
         "source": "borders"
       },
       {
-        "selector": "md-border--lighter",
+        "selector": "md-border-lighter",
         "source": "borders"
       },
       {
-        "selector": "md-border-top--lighter",
+        "selector": "md-border-top-lighter",
         "source": "borders"
       },
       {
-        "selector": "md-border-right--lighter",
+        "selector": "md-border-right-lighter",
         "source": "borders"
       },
       {
-        "selector": "md-border-bottom--lighter",
+        "selector": "md-border-bottom-lighter",
         "source": "borders"
       },
       {
-        "selector": "md-border-left--lighter",
+        "selector": "md-border-left-lighter",
         "source": "borders"
       },
       {
@@ -1112,6 +1192,26 @@
         "source": "borders"
       },
       {
+        "selector": "md-border--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "md-border-top--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "md-border-right--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "md-border-bottom--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "md-border-left--lighter",
+        "source": "borders"
+      },
+      {
         "selector": "lg-border",
         "source": "borders"
       },
@@ -1132,23 +1232,23 @@
         "source": "borders"
       },
       {
-        "selector": "lg-border--lighter",
+        "selector": "lg-border-lighter",
         "source": "borders"
       },
       {
-        "selector": "lg-border-top--lighter",
+        "selector": "lg-border-top-lighter",
         "source": "borders"
       },
       {
-        "selector": "lg-border-right--lighter",
+        "selector": "lg-border-right-lighter",
         "source": "borders"
       },
       {
-        "selector": "lg-border-bottom--lighter",
+        "selector": "lg-border-bottom-lighter",
         "source": "borders"
       },
       {
-        "selector": "lg-border-left--lighter",
+        "selector": "lg-border-left-lighter",
         "source": "borders"
       },
       {
@@ -1169,6 +1269,26 @@
       },
       {
         "selector": "lg-border-left-none",
+        "source": "borders"
+      },
+      {
+        "selector": "lg-border--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "lg-border-top--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "lg-border-right--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "lg-border-bottom--lighter",
+        "source": "borders"
+      },
+      {
+        "selector": "lg-border-left--lighter",
         "source": "borders"
       },
       {
@@ -3620,6 +3740,14 @@
         "source": "messaging"
       },
       {
+        "selector": "page-message__close",
+        "source": "messaging"
+      },
+      {
+        "selector": "page-message__close-icon",
+        "source": "messaging"
+      },
+      {
         "selector": "page-message--error",
         "source": "messaging"
       },
@@ -3662,6 +3790,26 @@
       {
         "selector": "js-show-modal",
         "source": "modals"
+      },
+      {
+        "selector": "tag",
+        "source": "tags"
+      },
+      {
+        "selector": "tag__text",
+        "source": "tags"
+      },
+      {
+        "selector": "tag__link",
+        "source": "tags"
+      },
+      {
+        "selector": "tag__delete",
+        "source": "tags"
+      },
+      {
+        "selector": "tag__delete-icon",
+        "source": "tags"
       }
     ],
     "variables": [
@@ -3669,8 +3817,12 @@
         "$bold",
         "$border",
         "$border--lighter",
+        "$border-lighter",
         "$border-radius",
         "$checkmark",
+        "$close-icon",
+        "$close-icon--light",
+        "$close-icon--thick",
         "$down-caret",
         "$exclamation-circle",
         "$fill-blue",
@@ -3679,8 +3831,11 @@
         "$fill-gray",
         "$fill-gray--darker",
         "$fill-gray--lighter",
+        "$fill-gray-darker",
+        "$fill-gray-lighter",
         "$fill-green",
         "$fill-green--lighter",
+        "$fill-green-lighter",
         "$fill-instagram",
         "$fill-linkedin",
         "$fill-orange",
@@ -3689,6 +3844,7 @@
         "$fill-promoted-orange",
         "$fill-red",
         "$fill-red--lighter",
+        "$fill-red-lighter",
         "$fill-snapchat",
         "$fill-tumblr",
         "$fill-twitter",
@@ -3696,7 +3852,9 @@
         "$fill-white",
         "$fill-yellow",
         "$fill-yellow--lighter",
+        "$fill-yellow-lighter",
         "$fill-youtube",
+        "$font-smoothing",
         "$line-height-1",
         "$line-height-2",
         "$line-height-3",
@@ -3720,13 +3878,23 @@
         "$text-5",
         "$text-6",
         "$text-blue",
+        "$text-facebook",
+        "$text-google",
         "$text-gray",
         "$text-gray--lighter",
         "$text-gray--lightest",
+        "$text-gray-lighter",
+        "$text-gray-lightest",
         "$text-green",
+        "$text-instagram",
+        "$text-linkedin",
         "$text-orange",
+        "$text-pinterest",
         "$text-red",
+        "$text-tumblr",
+        "$text-twitter",
         "$text-white",
+        "$text-youtube",
         "$z1",
         "$z2",
         "$z3",

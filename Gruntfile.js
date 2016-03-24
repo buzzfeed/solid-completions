@@ -46,9 +46,7 @@ module.exports = function(grunt) {
           map: false,
           syntax: require('postcss-scss'), // work with SCSS directly
           processors: [
-            processors.solid_rules_pre({
-              //scope: "source.scss meta.property-value.scss",
-            }),
+            processors.solid_rules_pre(),
           ]
         },
         src: ['./node_modules/bf-solid/_lib/*utilities*/*.scss']
