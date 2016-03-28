@@ -23,5 +23,8 @@
   },
   "engines": {
     "atom": "*"
+  },
+  "dependencies": {
+    "contrast": "^1.0.1"
   }
 }

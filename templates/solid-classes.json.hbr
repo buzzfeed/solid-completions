@@ -6,7 +6,8 @@
     {{#each classes}}
       {
         "selector": "{{@key}}",
-        "source": "{{this.source}}"
+        "source": "{{this.source}}"{{#if this.color}},
+        "color": "{{color}}"{{/if}}
       }{{#if @last}}{{else}},{{/if}}
     {{/each}}
     ],

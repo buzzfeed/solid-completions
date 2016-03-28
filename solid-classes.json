@@ -113,131 +113,163 @@
       },
       {
         "selector": "fill-red",
-        "source": "colors"
+        "source": "colors",
+        "color": "#e32"
       },
       {
         "selector": "fill-red-lighter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#feebe9"
       },
       {
         "selector": "fill-pink",
-        "source": "colors"
+        "source": "colors",
+        "color": "#eb2649"
       },
       {
         "selector": "fill-blue",
-        "source": "colors"
+        "source": "colors",
+        "color": "#07e"
       },
       {
         "selector": "fill-yellow",
-        "source": "colors"
+        "source": "colors",
+        "color": "#fe0"
       },
       {
         "selector": "fill-yellow-lighter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#fffab6"
       },
       {
         "selector": "fill-green",
-        "source": "colors"
+        "source": "colors",
+        "color": "#6fb824"
       },
       {
         "selector": "fill-green-lighter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#f1f8e9"
       },
       {
         "selector": "fill-orange",
-        "source": "colors"
+        "source": "colors",
+        "color": "#f49c1a"
       },
       {
         "selector": "fill-promoted-orange",
-        "source": "colors"
+        "source": "colors",
+        "color": "#edb802"
       },
       {
         "selector": "fill-gray-lighter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#f4f4f4"
       },
       {
         "selector": "fill-gray",
-        "source": "colors"
+        "source": "colors",
+        "color": "#aaa"
       },
       {
         "selector": "fill-gray-darker",
-        "source": "colors"
+        "source": "colors",
+        "color": "#222"
       },
       {
         "selector": "fill-white",
-        "source": "colors"
+        "source": "colors",
+        "color": "#fff"
       },
       {
         "selector": "fill-facebook",
-        "source": "colors"
+        "source": "colors",
+        "color": "#3b5998"
       },
       {
         "selector": "fill-twitter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#55acee"
       },
       {
         "selector": "fill-google",
-        "source": "colors"
+        "source": "colors",
+        "color": "#dd4b39"
       },
       {
         "selector": "fill-linkedin",
-        "source": "colors"
+        "source": "colors",
+        "color": "#0077b5"
       },
       {
         "selector": "fill-pinterest",
-        "source": "colors"
+        "source": "colors",
+        "color": "#bd081c"
       },
       {
         "selector": "fill-tumblr",
-        "source": "colors"
+        "source": "colors",
+        "color": "#36465d"
       },
       {
         "selector": "fill-youtube",
-        "source": "colors"
+        "source": "colors",
+        "color": "#cd201f"
       },
       {
         "selector": "fill-instagram",
-        "source": "colors"
+        "source": "colors",
+        "color": "#517fa4"
       },
       {
         "selector": "fill-vine",
-        "source": "colors"
+        "source": "colors",
+        "color": "#00b488"
       },
       {
         "selector": "fill-snapchat",
-        "source": "colors"
+        "source": "colors",
+        "color": "#fffc00"
       },
       {
         "selector": "text-gray",
-        "source": "colors"
+        "source": "colors",
+        "color": "#333"
       },
       {
         "selector": "text-white",
-        "source": "colors"
+        "source": "colors",
+        "color": "#fff"
       },
       {
         "selector": "text-gray-lighter",
-        "source": "colors"
+        "source": "colors",
+        "color": "#666"
       },
       {
         "selector": "text-gray-lightest",
-        "source": "colors"
+        "source": "colors",
+        "color": "#999"
       },
       {
         "selector": "text-red",
-        "source": "colors"
+        "source": "colors",
+        "color": "#e32"
       },
       {
         "selector": "text-orange",
-        "source": "colors"
+        "source": "colors",
+        "color": "#f49c1a"
       },
       {
         "selector": "text-green",
-        "source": "colors"
+        "source": "colors",
+        "color": "#6fb824"
       },
       {
         "selector": "text-blue",
-        "source": "colors"
+        "source": "colors",
+        "color": "#07e"
       },
       {
         "selector": "button",
@@ -245,7 +277,8 @@
       },
       {
         "selector": "button--disabled",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#16222d"
       },
       {
         "selector": "button--secondary",
@@ -265,7 +298,8 @@
       },
       {
         "selector": "button--transparent",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#004488"
       },
       {
         "selector": "button--small",
@@ -273,35 +307,43 @@
       },
       {
         "selector": "button--facebook",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#090e17"
       },
       {
         "selector": "button--twitter",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#0d5083"
       },
       {
         "selector": "button--google",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#55160f"
       },
       {
         "selector": "button--linkedin",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#000203"
       },
       {
         "selector": "button--pinterest",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#120103"
       },
       {
         "selector": "button--tumblr",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "black"
       },
       {
         "selector": "button--youtube",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#320808"
       },
       {
         "selector": "button--instagram",
-        "source": "buttons"
+        "source": "buttons",
+        "color": "#16222d"
       },
       {
         "selector": "text-input",
@@ -329,15 +371,18 @@
       },
       {
         "selector": "radio",
-        "source": "forms"
+        "source": "forms",
+        "color": "#fff"
       },
       {
         "selector": "checkbox",
-        "source": "forms"
+        "source": "forms",
+        "color": "#07e"
       },
       {
         "selector": "form-label",
-        "source": "forms"
+        "source": "forms",
+        "color": "#e32"
       },
       {
         "selector": "form-label--small",
@@ -345,19 +390,23 @@
       },
       {
         "selector": "form-label--optional",
-        "source": "forms"
+        "source": "forms",
+        "color": "#999"
       },
       {
         "selector": "form-label--required",
-        "source": "forms"
+        "source": "forms",
+        "color": "#e32"
       },
       {
         "selector": "form-helper",
-        "source": "forms"
+        "source": "forms",
+        "color": "#999"
       },
       {
         "selector": "form-feedback",
-        "source": "forms"
+        "source": "forms",
+        "color": "#e32"
       },
       {
         "selector": "form-fieldset--warning",
@@ -901,51 +950,63 @@
       },
       {
         "selector": "link-blue",
-        "source": "typography"
+        "source": "typography",
+        "color": "#004488"
       },
       {
         "selector": "link-gray",
-        "source": "typography"
+        "source": "typography",
+        "color": "#07e"
       },
       {
         "selector": "link-gray-lighter",
-        "source": "typography"
+        "source": "typography",
+        "color": "#333"
       },
       {
         "selector": "link-facebook",
-        "source": "typography"
+        "source": "typography",
+        "color": "#1e2e4f"
       },
       {
         "selector": "link-twitter",
-        "source": "typography"
+        "source": "typography",
+        "color": "#147bc9"
       },
       {
         "selector": "link-google",
-        "source": "typography"
+        "source": "typography",
+        "color": "#96271a"
       },
       {
         "selector": "link-linkedin",
-        "source": "typography"
+        "source": "typography",
+        "color": "#00344f"
       },
       {
         "selector": "link-pinterest",
-        "source": "typography"
+        "source": "typography",
+        "color": "#5b040e"
       },
       {
         "selector": "link-tumblr",
-        "source": "typography"
+        "source": "typography",
+        "color": "#11151c"
       },
       {
         "selector": "link-youtube",
-        "source": "typography"
+        "source": "typography",
+        "color": "#741212"
       },
       {
         "selector": "link-instagram",
-        "source": "typography"
+        "source": "typography",
+        "color": "#2f4a60"
       },
       {
         "selector": "link-gray--lighter",
-        "source": "typography"
+        "source": "typography",
+        "color": "#333"
       },
       {
         "selector": "rounded",
@@ -3733,11 +3794,13 @@
       },
       {
         "selector": "page-message__text",
-        "source": "messaging"
+        "source": "messaging",
+        "color": "#6fb824"
       },
       {
         "selector": "page-message__action",
-        "source": "messaging"
+        "source": "messaging",
+        "color": "#07e"
       },
       {
         "selector": "page-message__close",
@@ -3757,7 +3820,8 @@
       },
       {
         "selector": "button-group",
-        "source": "button-groups"
+        "source": "button-groups",
+        "color": "#333"
       },
       {
         "selector": "button-group--small",
@@ -3765,7 +3829,8 @@
       },
       {
         "selector": "button-group__radio",
-        "source": "button-groups"
+        "source": "button-groups",
+        "color": "#333"
       },
       {
         "selector": "button-group__item",
@@ -3793,7 +3858,8 @@
       },
       {
         "selector": "tag",
-        "source": "tags"
+        "source": "tags",
+        "color": "#fff"
       },
       {
         "selector": "tag__text",
