@@ -44,6 +44,7 @@
       "\\$fill-yellow-lighter",
       "\\$fill-youtube",
       "\\$font-smoothing",
+      "\\$generate-responsive-classes",
       "\\$line-height-1",
       "\\$line-height-2",
       "\\$line-height-3",

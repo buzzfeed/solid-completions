@@ -272,6 +272,113 @@
         "color": "#07e"
       },
       {
+        "selector": "svg-gray",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-white",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-gray-lighter",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-gray-lightest",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-red",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-orange",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-green",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-blue",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-facebook",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-twitter",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-google",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-linkedin",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-pinterest",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-tumblr",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-youtube",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-instagram",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-vine",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-snapchat",
+        "source": "colors"
+      },
+      {
+        "selector": "fill-red--lighter",
+        "source": "colors",
+        "color": "#feebe9"
+      },
+      {
+        "selector": "fill-yellow--lighter",
+        "source": "colors",
+        "color": "#fffab6"
+      },
+      {
+        "selector": "fill-green--lighter",
+        "source": "colors",
+        "color": "#f1f8e9"
+      },
+      {
+        "selector": "fill-gray--lighter",
+        "source": "colors",
+        "color": "#f4f4f4"
+      },
+      {
+        "selector": "fill-gray--darker",
+        "source": "colors",
+        "color": "#222"
+      },
+      {
+        "selector": "text-gray--lighter",
+        "source": "colors",
+        "color": "#666"
+      },
+      {
+        "selector": "text-gray--lightest",
+        "source": "colors",
+        "color": "#999"
+      },
+      {
         "selector": "button",
         "source": "buttons"
       },
@@ -3921,6 +4028,7 @@
         "$fill-yellow-lighter",
         "$fill-youtube",
         "$font-smoothing",
+        "$generate-responsive-classes",
         "$line-height-1",
         "$line-height-2",
         "$line-height-3",
