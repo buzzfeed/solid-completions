@@ -979,5 +979,6 @@
       "tag__link",
       "tag__delete",
       "tag__delete-icon",
+      "card",
   ]
 }

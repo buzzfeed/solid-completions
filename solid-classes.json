@@ -3983,6 +3983,11 @@
       {
         "selector": "tag__delete-icon",
         "source": "tags"
+      },
+      {
+        "selector": "card",
+        "source": "cards",
+        "color": "#fff"
       }
     ],
     "variables": [
@@ -4035,6 +4040,8 @@
         "$line-height-4",
         "$line-height-5",
         "$line-height-6",
+        "$line-height-form",
+        "$line-height-form-small",
         "$regular",
         "$sans",
         "$slab",
