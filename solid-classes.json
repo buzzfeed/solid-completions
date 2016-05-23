@@ -924,27 +924,99 @@
         "source": "tables"
       },
       {
-        "selector": "text-1",
+        "selector": "xs-text-1",
         "source": "typography"
       },
       {
-        "selector": "text-2",
+        "selector": "xs-text-2",
         "source": "typography"
       },
       {
-        "selector": "text-3",
+        "selector": "xs-text-3",
         "source": "typography"
       },
       {
-        "selector": "text-4",
+        "selector": "xs-text-4",
         "source": "typography"
       },
       {
-        "selector": "text-5",
+        "selector": "xs-text-5",
         "source": "typography"
       },
       {
-        "selector": "text-6",
+        "selector": "xs-text-6",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-1",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-2",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-3",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-4",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-5",
+        "source": "typography"
+      },
+      {
+        "selector": "sm-text-6",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-1",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-2",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-3",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-4",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-5",
+        "source": "typography"
+      },
+      {
+        "selector": "md-text-6",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-1",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-2",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-3",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-4",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-5",
+        "source": "typography"
+      },
+      {
+        "selector": "lg-text-6",
         "source": "typography"
       },
       {
@@ -1109,6 +1181,30 @@
         "selector": "link-instagram",
         "source": "typography",
         "color": "#2f4a60"
+      },
+      {
+        "selector": "text-6",
+        "source": "typography"
+      },
+      {
+        "selector": "text-1",
+        "source": "typography"
+      },
+      {
+        "selector": "text-2",
+        "source": "typography"
+      },
+      {
+        "selector": "text-3",
+        "source": "typography"
+      },
+      {
+        "selector": "text-4",
+        "source": "typography"
+      },
+      {
+        "selector": "text-5",
+        "source": "typography"
       },
       {
         "selector": "link-gray--lighter",
