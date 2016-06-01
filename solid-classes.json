@@ -344,41 +344,6 @@
         "source": "colors"
       },
       {
-        "selector": "fill-red--lighter",
-        "source": "colors",
-        "color": "#feebe9"
-      },
-      {
-        "selector": "fill-yellow--lighter",
-        "source": "colors",
-        "color": "#fffab6"
-      },
-      {
-        "selector": "fill-green--lighter",
-        "source": "colors",
-        "color": "#f1f8e9"
-      },
-      {
-        "selector": "fill-gray--lighter",
-        "source": "colors",
-        "color": "#f4f4f4"
-      },
-      {
-        "selector": "fill-gray--darker",
-        "source": "colors",
-        "color": "#222"
-      },
-      {
-        "selector": "text-gray--lighter",
-        "source": "colors",
-        "color": "#666"
-      },
-      {
-        "selector": "text-gray--lightest",
-        "source": "colors",
-        "color": "#999"
-      },
-      {
         "selector": "button",
         "source": "buttons"
       },
@@ -1124,6 +1089,30 @@
         "source": "typography"
       },
       {
+        "selector": "text-6",
+        "source": "typography"
+      },
+      {
+        "selector": "text-1",
+        "source": "typography"
+      },
+      {
+        "selector": "text-2",
+        "source": "typography"
+      },
+      {
+        "selector": "text-3",
+        "source": "typography"
+      },
+      {
+        "selector": "text-4",
+        "source": "typography"
+      },
+      {
+        "selector": "text-5",
+        "source": "typography"
+      },
+      {
         "selector": "list-unstyled",
         "source": "typography"
       },
@@ -1181,35 +1170,6 @@
         "selector": "link-instagram",
         "source": "typography",
         "color": "#2f4a60"
-      },
-      {
-        "selector": "text-6",
-        "source": "typography"
-      },
-      {
-        "selector": "text-1",
-        "source": "typography"
-      },
-      {
-        "selector": "text-2",
-        "source": "typography"
-      },
-      {
-        "selector": "text-3",
-        "source": "typography"
-      },
-      {
-        "selector": "text-4",
-        "source": "typography"
-      },
-      {
-        "selector": "text-5",
-        "source": "typography"
-      },
-      {
-        "selector": "link-gray--lighter",
-        "source": "typography",
-        "color": "#333"
       },
       {
         "selector": "rounded",
@@ -1296,26 +1256,6 @@
         "source": "borders"
       },
       {
-        "selector": "xs-border--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "xs-border-top--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "xs-border-right--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "xs-border-bottom--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "xs-border-left--lighter",
-        "source": "borders"
-      },
-      {
         "selector": "sm-border",
         "source": "borders"
       },
@@ -1373,26 +1313,6 @@
       },
       {
         "selector": "sm-border-left-none",
-        "source": "borders"
-      },
-      {
-        "selector": "sm-border--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "sm-border-top--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "sm-border-right--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "sm-border-bottom--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "sm-border-left--lighter",
         "source": "borders"
       },
       {
@@ -1456,26 +1376,6 @@
         "source": "borders"
       },
       {
-        "selector": "md-border--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "md-border-top--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "md-border-right--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "md-border-bottom--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "md-border-left--lighter",
-        "source": "borders"
-      },
-      {
         "selector": "lg-border",
         "source": "borders"
       },
@@ -1533,26 +1433,6 @@
       },
       {
         "selector": "lg-border-left-none",
-        "source": "borders"
-      },
-      {
-        "selector": "lg-border--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "lg-border-top--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "lg-border-right--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "lg-border-bottom--lighter",
-        "source": "borders"
-      },
-      {
-        "selector": "lg-border-left--lighter",
         "source": "borders"
       },
       {
@@ -4103,12 +3983,9 @@
         "$fill-facebook",
         "$fill-google",
         "$fill-gray",
-        "$fill-gray--darker",
-        "$fill-gray--lighter",
         "$fill-gray-darker",
         "$fill-gray-lighter",
         "$fill-green",
-        "$fill-green--lighter",
         "$fill-green-lighter",
         "$fill-instagram",
         "$fill-linkedin",
@@ -4117,7 +3994,6 @@
         "$fill-pinterest",
         "$fill-promoted-orange",
         "$fill-red",
-        "$fill-red--lighter",
         "$fill-red-lighter",
         "$fill-snapchat",
         "$fill-tumblr",
@@ -4125,7 +4001,6 @@
         "$fill-vine",
         "$fill-white",
         "$fill-yellow",
-        "$fill-yellow--lighter",
         "$fill-yellow-lighter",
         "$fill-youtube",
         "$font-smoothing",
@@ -4133,9 +4008,6 @@
         "$line-height-1",
         "$line-height-2",
         "$line-height-3",
-        "$line-height-4",
-        "$line-height-5",
-        "$line-height-6",
         "$line-height-form",
         "$line-height-form-small",
         "$regular",
@@ -4158,8 +4030,6 @@
         "$text-facebook",
         "$text-google",
         "$text-gray",
-        "$text-gray--lighter",
-        "$text-gray--lightest",
         "$text-gray-lighter",
         "$text-gray-lightest",
         "$text-green",
