@@ -124,17 +124,17 @@
       {
         "selector": "fill-pink",
         "source": "colors",
-        "color": "#eb2649"
+        "color": "#f43192"
       },
       {
         "selector": "fill-blue",
         "source": "colors",
-        "color": "#07e"
+        "color": "#0f65ef"
       },
       {
         "selector": "fill-yellow",
         "source": "colors",
-        "color": "#fe0"
+        "color": "#ffee00"
       },
       {
         "selector": "fill-yellow-lighter",
@@ -142,24 +142,34 @@
         "color": "#fffab6"
       },
       {
+        "selector": "fill-purple",
+        "source": "colors",
+        "color": "#6645dd"
+      },
+      {
+        "selector": "fill-teal",
+        "source": "colors",
+        "color": "#0dccb0"
+      },
+      {
         "selector": "fill-green",
         "source": "colors",
-        "color": "#6fb824"
+        "color": "#68af15"
       },
       {
         "selector": "fill-green-lighter",
         "source": "colors",
-        "color": "#f1f8e9"
+        "color": "#e1efd0"
       },
       {
         "selector": "fill-orange",
         "source": "colors",
-        "color": "#f49c1a"
+        "color": "#f47f16"
       },
       {
         "selector": "fill-promoted-orange",
         "source": "colors",
-        "color": "#edb802"
+        "color": "#f7ad19"
       },
       {
         "selector": "fill-gray-lighter",
@@ -234,7 +244,7 @@
       {
         "selector": "text-gray",
         "source": "colors",
-        "color": "#333"
+        "color": "#222"
       },
       {
         "selector": "text-white",
@@ -257,19 +267,34 @@
         "color": "#e32"
       },
       {
+        "selector": "text-pink",
+        "source": "colors",
+        "color": "#f43192"
+      },
+      {
         "selector": "text-orange",
         "source": "colors",
-        "color": "#f49c1a"
+        "color": "#f47f16"
+      },
+      {
+        "selector": "text-promoted-orange",
+        "source": "colors",
+        "color": "#f7ad19"
+      },
+      {
+        "selector": "text-purple",
+        "source": "colors",
+        "color": "#6645dd"
       },
       {
         "selector": "text-green",
         "source": "colors",
-        "color": "#6fb824"
+        "color": "#68af15"
       },
       {
         "selector": "text-blue",
         "source": "colors",
-        "color": "#07e"
+        "color": "#0f65ef"
       },
       {
         "selector": "svg-gray",
@@ -292,7 +317,19 @@
         "source": "colors"
       },
       {
+        "selector": "svg-pink",
+        "source": "colors"
+      },
+      {
         "selector": "svg-orange",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-purple",
+        "source": "colors"
+      },
+      {
+        "selector": "svg-teal",
         "source": "colors"
       },
       {
@@ -350,7 +387,7 @@
       {
         "selector": "button--disabled",
         "source": "buttons",
-        "color": "#16222d"
+        "color": "black"
       },
       {
         "selector": "button--secondary",
@@ -371,7 +408,7 @@
       {
         "selector": "button--transparent",
         "source": "buttons",
-        "color": "#004488"
+        "color": "#093c8f"
       },
       {
         "selector": "button--small",
@@ -418,6 +455,21 @@
         "color": "#16222d"
       },
       {
+        "selector": "button--sms",
+        "source": "buttons",
+        "color": "#091002"
+      },
+      {
+        "selector": "button--rss",
+        "source": "buttons",
+        "color": "#542a04"
+      },
+      {
+        "selector": "button--apple-news",
+        "source": "buttons",
+        "color": "black"
+      },
+      {
         "selector": "text-input",
         "source": "forms"
       },
@@ -449,7 +501,7 @@
       {
         "selector": "checkbox",
         "source": "forms",
-        "color": "#07e"
+        "color": "#0f65ef"
       },
       {
         "selector": "form-label",
@@ -1118,18 +1170,19 @@
       },
       {
         "selector": "link-blue",
-        "source": "typography",
-        "color": "#004488"
+        "source": "typography"
       },
       {
         "selector": "link-gray",
-        "source": "typography",
-        "color": "#07e"
+        "source": "typography"
       },
       {
         "selector": "link-gray-lighter",
-        "source": "typography",
-        "color": "#333"
+        "source": "typography"
+      },
+      {
+        "selector": "link-white",
+        "source": "typography"
       },
       {
         "selector": "link-facebook",
@@ -1688,6 +1741,34 @@
         "source": "layout"
       },
       {
+        "selector": "xs-m05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-mt05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-mr05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-mb05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-ml05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-mx05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-my05",
+        "source": "layout"
+      },
+      {
         "selector": "xs-m1",
         "source": "layout"
       },
@@ -1885,6 +1966,34 @@
       },
       {
         "selector": "sm-my0",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-m05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-mt05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-mr05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-mb05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-ml05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-mx05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-my05",
         "source": "layout"
       },
       {
@@ -2088,6 +2197,34 @@
         "source": "layout"
       },
       {
+        "selector": "md-m05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-mt05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-mr05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-mb05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-ml05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-mx05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-my05",
+        "source": "layout"
+      },
+      {
         "selector": "md-m1",
         "source": "layout"
       },
@@ -2285,6 +2422,34 @@
       },
       {
         "selector": "lg-my0",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-m05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-mt05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-mr05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-mb05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-ml05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-mx05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-my05",
         "source": "layout"
       },
       {
@@ -2488,6 +2653,34 @@
         "source": "layout"
       },
       {
+        "selector": "xs-p05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-pt05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-pr05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-pb05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-pl05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-px05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-py05",
+        "source": "layout"
+      },
+      {
         "selector": "xs-p1",
         "source": "layout"
       },
@@ -2681,6 +2874,34 @@
       },
       {
         "selector": "sm-py0",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-p05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-pt05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-pr05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-pb05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-pl05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-px05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-py05",
         "source": "layout"
       },
       {
@@ -2880,6 +3101,34 @@
         "source": "layout"
       },
       {
+        "selector": "md-p05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-pt05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-pr05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-pb05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-pl05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-px05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-py05",
+        "source": "layout"
+      },
+      {
         "selector": "md-p1",
         "source": "layout"
       },
@@ -3073,6 +3322,34 @@
       },
       {
         "selector": "lg-py0",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-p05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-pt05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-pr05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-pb05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-pl05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-px05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-py05",
         "source": "layout"
       },
       {
@@ -3292,6 +3569,22 @@
         "source": "layout"
       },
       {
+        "selector": "xs-t05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-r05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-b05",
+        "source": "layout"
+      },
+      {
+        "selector": "xs-l05",
+        "source": "layout"
+      },
+      {
         "selector": "xs-t1",
         "source": "layout"
       },
@@ -3433,6 +3726,22 @@
       },
       {
         "selector": "sm-l0",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-t05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-r05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-b05",
+        "source": "layout"
+      },
+      {
+        "selector": "sm-l05",
         "source": "layout"
       },
       {
@@ -3580,6 +3889,22 @@
         "source": "layout"
       },
       {
+        "selector": "md-t05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-r05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-b05",
+        "source": "layout"
+      },
+      {
+        "selector": "md-l05",
+        "source": "layout"
+      },
+      {
         "selector": "md-t1",
         "source": "layout"
       },
@@ -3721,6 +4046,22 @@
       },
       {
         "selector": "lg-l0",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-t05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-r05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-b05",
+        "source": "layout"
+      },
+      {
+        "selector": "lg-l05",
         "source": "layout"
       },
       {
@@ -3872,39 +4213,415 @@
         "source": "layout"
       },
       {
+        "selector": "flex",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-order-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-order-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-order-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-grow-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-grow-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-grow-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-shrink-0",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-shrink-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-row",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-row-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-column",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-column-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-wrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-nowrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-justify-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-justify-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-justify-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-align-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-align-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-align-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "xs-flex-align-baseline",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-order-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-order-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-order-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-grow-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-grow-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-grow-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-shrink-0",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-shrink-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-row",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-row-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-column",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-column-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-wrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-nowrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-justify-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-justify-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-justify-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-align-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-align-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-align-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "sm-flex-align-baseline",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-order-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-order-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-order-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-grow-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-grow-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-grow-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-shrink-0",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-shrink-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-row",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-row-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-column",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-column-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-wrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-nowrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-justify-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-justify-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-justify-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-align-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-align-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-align-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "md-flex-align-baseline",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-order-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-order-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-order-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-grow-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-grow-2",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-grow-3",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-shrink-0",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-shrink-1",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-row",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-row-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-column",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-column-reverse",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-wrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-nowrap",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-justify-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-justify-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-justify-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-align-start",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-align-end",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-align-center",
+        "source": "flexbox"
+      },
+      {
+        "selector": "lg-flex-align-baseline",
+        "source": "flexbox"
+      },
+      {
+        "selector": "svg-1",
+        "source": "svg-icons"
+      },
+      {
+        "selector": "svg-2",
+        "source": "svg-icons"
+      },
+      {
+        "selector": "svg-3",
+        "source": "svg-icons"
+      },
+      {
+        "selector": "svg-4",
+        "source": "svg-icons"
+      },
+      {
+        "selector": "svg-5",
+        "source": "svg-icons"
+      },
+      {
+        "selector": "svg-6",
+        "source": "svg-icons"
+      },
+      {
         "selector": "page-message",
         "source": "messaging"
       },
       {
-        "selector": "page-message__text",
-        "source": "messaging",
-        "color": "#6fb824"
-      },
-      {
         "selector": "page-message__action",
         "source": "messaging",
-        "color": "#07e"
+        "color": "#0f65ef"
       },
       {
         "selector": "page-message__close",
         "source": "messaging"
       },
       {
-        "selector": "page-message__close-icon",
+        "selector": "page-message__icon",
+        "source": "messaging",
+        "color": "#f47f16"
+      },
+      {
+        "selector": "page-message__icon-close",
         "source": "messaging"
       },
       {
         "selector": "page-message--error",
-        "source": "messaging"
+        "source": "messaging",
+        "color": "#e32"
+      },
+      {
+        "selector": "page-message__text",
+        "source": "messaging",
+        "color": "#f47f16"
       },
       {
         "selector": "page-message--success",
-        "source": "messaging"
+        "source": "messaging",
+        "color": "#68af15"
+      },
+      {
+        "selector": "page-message--warning",
+        "source": "messaging",
+        "color": "#f47f16"
       },
       {
         "selector": "button-group",
         "source": "button-groups",
-        "color": "#333"
+        "color": "#222"
       },
       {
         "selector": "button-group--small",
@@ -3913,7 +4630,7 @@
       {
         "selector": "button-group__radio",
         "source": "button-groups",
-        "color": "#333"
+        "color": "#222"
       },
       {
         "selector": "button-group__item",
@@ -3964,13 +4681,48 @@
         "selector": "card",
         "source": "cards",
         "color": "#fff"
+      },
+      {
+        "selector": "pagination",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__text",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button--prev",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button--next",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button--prev-icon",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button--next-icon",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination__button--disabled",
+        "source": "pagination"
+      },
+      {
+        "selector": "pagination--small",
+        "source": "pagination"
       }
     ],
     "variables": [
         "$base-font-size",
         "$bold",
         "$border",
-        "$border--lighter",
         "$border-lighter",
         "$border-radius",
         "$checkmark",
@@ -3993,9 +4745,11 @@
         "$fill-pink",
         "$fill-pinterest",
         "$fill-promoted-orange",
+        "$fill-purple",
         "$fill-red",
         "$fill-red-lighter",
         "$fill-snapchat",
+        "$fill-teal",
         "$fill-tumblr",
         "$fill-twitter",
         "$fill-vine",
@@ -4010,10 +4764,12 @@
         "$line-height-3",
         "$line-height-form",
         "$line-height-form-small",
+        "$opacity-disabled",
         "$regular",
         "$sans",
         "$slab",
         "$solid-logo",
+        "$space-05",
         "$space-1",
         "$space-2",
         "$space-3",
@@ -4036,7 +4792,10 @@
         "$text-instagram",
         "$text-linkedin",
         "$text-orange",
+        "$text-pink",
         "$text-pinterest",
+        "$text-promoted-orange",
+        "$text-purple",
         "$text-red",
         "$text-tumblr",
         "$text-twitter",
