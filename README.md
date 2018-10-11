@@ -3,7 +3,7 @@ An [Atom](http://www.atom.io) autocomplete provider for the [Solid CSS framework
 
 It will autocomplete your Solid classnames in HTML and HTML-ish (mustache, handlebars, etc) files while also providing access to Solid global variables in SCSS.
 
-![Solid Autocomplete Example](https://monosnap.com/file/biBzhqnrIhT6jC0KA5PweeRTtuwN28.png)
+[Solid Autocomplete Example](https://monosnap.com/file/biBzhqnrIhT6jC0KA5PweeRTtuwN28.png)
 
 ## Installation (Atom)
 
